@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tempus Pro Timer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tempus Pro Timer</h1>
+            <i class="fas fa-adjust theme-toggle" title="Toggle Theme"></i>
+        </header>
+        <div class="display-area">
+            <div class="time-display">
+                <span id="minutes">00</span>:<span id="seconds">00</span>:<span id="milliseconds" class="milliseconds">00</span>
+            </div>
+            <div class="extra-stats">
+                <span id="totalTime">Total: 00:00:00</span> | 
+                <span id="avgLapTime">Avg Lap: --:--:--</span>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="startPauseBtn" class="btn"><i class="fas fa-play"></i> Start</button>
+            <button id="lapBtn" class="btn" disabled><i class="fas fa-flag"></i> Lap</button>
+            <button id="resetBtn" class="btn"><i class="fas fa-redo"></i> Reset</button>
+            <button id="saveBtn" class="btn" style="display: none;"><i class="fas fa-save"></i> Save</button>
+            <button id="exportBtn" class="btn" style="display: none;"><i class="fas fa-download"></i> Export</button>
+        </div>
+        <div class="laps-container">
+            <div class="laps-header">
+                <span>Lap</span>
+                <span>Time</span>
+                <span>Difference</span>
+            </div>
+            <div id="lapList"></div>
+        </div>
+        <footer>
+            <p>© 2025 <span class="brand">Tempus Pro</span> | Precision Timing</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
