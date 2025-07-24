@@ -6,23 +6,21 @@
         }
 
         :root {
-            /* Dark Theme */
-            --dark-bg: #12171d; /* Deep Slate */
-            --dark-panel: #1e252b; /* Charcoal */
-            --teal-accent: #00c4b4; /* Vibrant Teal */
-            --teal-hover: #00e6cc; /* Bright Teal */
-            --gray-text: #b0bec5; /* Light Gray */
-            --green-positive: #26a69a; /* Teal Green */
-            --red-negative: #ff5252; /* Vibrant Red */
-            --dark-border: #2e3944; /* Dark Border */
+            --dark-bg: #12171d; 
+            --dark-panel: #1e252b; 
+            --teal-accent: #00c4b4; 
+            --teal-hover: #00e6cc; 
+            --gray-text: #b0bec5; 
+            --green-positive: #26a69a; 
+            --red-negative: #ff5252;
+            --dark-border: #2e3944; 
 
-            /* Light Theme */
-            --light-bg: #e8f0f2; /* Soft Gray */
-            --light-panel: #ffffff; /* Pure White */
-            --light-teal: #00c4b4; /* Vibrant Teal */
-            --light-hover: #00e6cc; /* Bright Teal */
-            --light-text: #263238; /* Dark Slate */
-            --light-border: #cfd8dc; /* Light Gray Border */
+            --light-bg: #e8f0f2; 
+            --light-panel: #ffffff; 
+            --light-teal: #00c4b4; 
+            --light-hover: #00e6cc; 
+            --light-text: #263238;
+            --light-border: #cfd8dc; 
         }
 
         body {
@@ -348,7 +346,7 @@
             .btn {
                 width: 100%;
                 max-width: 200px;
-                min-width: 150px; /* Ensure text visibility */
+                min-width: 150px; 
             }
             .laps-header, .lap-item {
                 grid-template-columns: 1fr 1.5fr 1.5fr;
