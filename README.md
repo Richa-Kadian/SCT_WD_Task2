@@ -24,6 +24,7 @@ It offers a customizable timer with start/pause, lap recording, reset, save, and
    git clone https://github.com/Richa-Kadian/SCT_WD_Task2.git
 
 2. Navigate to the project directory:
+   ```bash
     cd SCT_WD_Task2
 
 3. Open the `stopWatch.html` file in your web browser (no server required):
